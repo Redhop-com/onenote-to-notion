@@ -1,0 +1,68 @@
+﻿================================================================================
+              ONENOTE TO NOTION MIGRATION TOOL
+                        INSTALLATION
+================================================================================
+
+WHAT IS INCLUDED:
+-----------------
+This package contains all essential files needed to export OneNote notebooks
+and import them to Notion.
+
+Scripts:
+  - Export-OneNoteToPDF.ps1          Main export script
+  - Import-OneNoteToNotion.ps1       Main import script
+  - Run-Export.ps1                   Export launcher
+  - Run-Import.ps1                   Import launcher
+  - Test-OneNoteConnection.ps1       Connection tester
+  - Export.cmd                       Windows export launcher
+  - Import.cmd                       Windows import launcher
+  - Test.cmd                         Windows test launcher
+
+Documentation:
+  - START_HERE.txt                   Quick start guide
+  - QUICK_START.md                   Detailed setup instructions
+  - README.md                        Project overview
+  - COMPLETE_SYNC_SYSTEM.md          Sync system documentation
+  - PARENT_PAGE_UUID_LINKING.md      Hierarchy linking documentation
+
+
+INSTALLATION:
+-------------
+1. Extract all files to a folder of your choice
+2. Read START_HERE.txt for quick start instructions
+3. Read QUICK_START.md for detailed setup guide
+
+
+REQUIREMENTS:
+-------------
+For Export:
+  - Windows PowerShell 5.1 (comes with Windows)
+  - OneNote Desktop (NOT Windows Store version)
+    Download: https://www.onenote.com/download
+
+For Import:
+  - PowerShell 7.0 or higher
+    Download: https://aka.ms/powershell
+  - Notion API key and database
+
+
+QUICK START:
+------------
+1. First time setup:
+   Use the Notion template to create your database
+
+2. Export from OneNote:
+   Double-click: Run-Export.ps1 (or Export.cmd)
+
+3. Import to Notion:
+   Double-click: Run-Import.ps1 (or Import.cmd)
+
+
+NEED HELP?
+----------
+See QUICK_START.md for detailed instructions and troubleshooting.
+
+
+================================================================================
+                    Ready to get started? Read START_HERE.txt!
+================================================================================

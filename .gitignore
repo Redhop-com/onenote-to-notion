@@ -1,0 +1,9 @@
+﻿# Notion configuration cache (contains API key)
+notion_config.json
+
+# Export outputs
+OneNoteExports/
+*.log
+
+# PowerShell temporary files
+*.tmp

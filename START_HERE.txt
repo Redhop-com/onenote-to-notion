@@ -1,0 +1,73 @@
+================================================================================
+                    ONENOTE EXPORT & IMPORT TOOLS
+                            START HERE
+================================================================================
+
+EASIEST WAY TO RUN THE SCRIPTS:
+--------------------------------
+
+1. EXPORT ONENOTE TO PDF
+   → Double-click: Export.cmd
+
+2. IMPORT TO NOTION
+   → Double-click: Import.cmd
+
+3. TEST ONENOTE CONNECTION
+   → Double-click: Test.cmd
+
+
+WHAT EACH FILE DOES:
+---------------------
+
+Export.cmd                    Easy launcher for exporting (double-click this!)
+Import.cmd                    Easy launcher for importing (double-click this!)
+Test.cmd                      Easy launcher for testing (double-click this!)
+
+Export-OneNoteToPDF.ps1       Main export script (advanced users)
+Import-OneNoteToNotion.ps1    Main import script (advanced users)
+Test-OneNoteConnection.ps1    Connection test script (advanced users)
+
+QUICK_START.md                Complete usage guide (read this for details)
+POWERSHELL_VERSION_FIX.md     Troubleshooting PowerShell version issues
+
+
+REQUIREMENTS:
+-------------
+
+For Exporting (Export.cmd):
+- Windows PowerShell 5.1 (comes with Windows)
+- OneNote Desktop (NOT Windows Store version)
+  Download: https://www.onenote.com/download
+
+For Importing (Import.cmd):
+- PowerShell 7 (must install separately)
+  Download: https://aka.ms/powershell
+- Notion API key and database
+- Exported files from Export.cmd
+
+
+TYPICAL WORKFLOW:
+-----------------
+
+Step 1: Test OneNote connection
+        → Double-click: Test.cmd
+
+Step 2: Export your OneNote notebooks
+        → Double-click: Export.cmd
+        → Files saved to: Documents\OneNoteExports\
+
+Step 3: Import to Notion
+        → Double-click: Import.cmd
+        → Follow prompts for API key and database
+
+
+NEED HELP?
+----------
+
+Read QUICK_START.md for detailed instructions
+Read POWERSHELL_VERSION_FIX.md if you get errors
+
+
+================================================================================
+                        Questions? Check the .md files!
+================================================================================
